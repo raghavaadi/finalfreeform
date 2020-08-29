@@ -1,0 +1,71 @@
+.inline-div {
+    display:inline-block;
+}
+.inline-txtarea {
+    resize: none;
+    border : 2px solid red;
+   
+}
+.rigt{
+    margin-left: 4%;
+}
+.format{
+    margin-left :4%;
+    margin-top: 4%;
+    display: inline-block;
+}
+.format1{
+    margin-left :4%;
+    margin-top: 4%;
+    
+}
+textarea, span {
+    vertical-align: middle;
+  }
+
+  button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+    margin-left: 2%;
+  background: none;
+  border: 3px solid #000;
+  border-radius: 5px;
+  color: #000;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #2ecc71;
+}
+
+.btn-1::after {
+    height: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .btn-1:hover:after {
+    height: 100%;
+  }
+  
